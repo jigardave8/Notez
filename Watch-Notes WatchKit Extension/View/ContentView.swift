@@ -15,7 +15,9 @@ struct ContentView: View {
          
     
     // MARK:- FUNCTION
-    
+    func save(){
+        dump(notes)
+    }
   
     
     
@@ -27,9 +29,21 @@ struct ContentView: View {
             HStack(alignment: .center, spacing: 6)
             {
             TextField("Add new Note", text: $text)
-                Button{
+                Button {
                     //action
+                    
+                    guard text.isEmpty == false else{return}
+                    
+                    let note = Note (id: UUID(), text:text)
+                    
+                    notes.append(note)
+                    
+                    text = ""
+                    
+                    save()
+                    
                 }
+                    
                 label: {
                     Image(systemName: "plus.circle")
                         .font(.system(size: 42, weight: .thin))
@@ -39,10 +53,12 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
 //                .buttonStyle(BorderedButtonStyle(tint: .accentColor))
                 
-                
+            
         
             }//hstack
             Spacer()
+            
+            Text ("\(notes.count)")
             
         }//vstack
         .navigationTitle("Notes")
