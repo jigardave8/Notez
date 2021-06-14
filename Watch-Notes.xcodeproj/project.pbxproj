@@ -15,6 +15,7 @@
 		012ACC6C26772E8D0097CF8B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012ACC6B26772E8D0097CF8B /* ComplicationController.swift */; };
 		012ACC6E26772E8E0097CF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012ACC6D26772E8E0097CF8B /* Assets.xcassets */; };
 		012ACC7126772E8E0097CF8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012ACC7026772E8E0097CF8B /* Preview Assets.xcassets */; };
+		012ACC86267753410097CF8B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012ACC85267753410097CF8B /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		012ACC6D26772E8E0097CF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012ACC7026772E8E0097CF8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		012ACC7226772E8E0097CF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012ACC85267753410097CF8B /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,8 @@
 		012ACC6626772E8D0097CF8B /* Watch-Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				012ACC6726772E8D0097CF8B /* ContentView.swift */,
+				012ACC84267753160097CF8B /* Model */,
+				012ACC83267753010097CF8B /* View */,
 				012ACC6926772E8D0097CF8B /* Watch_NotesApp.swift */,
 				012ACC6B26772E8D0097CF8B /* ComplicationController.swift */,
 				012ACC6D26772E8E0097CF8B /* Assets.xcassets */,
@@ -131,6 +134,22 @@
 				012ACC7026772E8E0097CF8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		012ACC83267753010097CF8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				012ACC6726772E8D0097CF8B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		012ACC84267753160097CF8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				012ACC85267753410097CF8B /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +281,7 @@
 				012ACC6826772E8D0097CF8B /* ContentView.swift in Sources */,
 				012ACC6A26772E8D0097CF8B /* Watch_NotesApp.swift in Sources */,
 				012ACC6C26772E8D0097CF8B /* ComplicationController.swift in Sources */,
+				012ACC86267753410097CF8B /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
