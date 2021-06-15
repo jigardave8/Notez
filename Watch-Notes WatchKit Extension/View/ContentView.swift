@@ -15,8 +15,36 @@ struct ContentView: View {
          
     
     // MARK:- FUNCTION
+    
+    func getDecomentaryDirectory() -> URL {
+        let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    
+    return path[0]
+        
+    }
     func save(){
-        dump(notes)
+//        dump(notes)
+        do{
+            let data = try JSONEncoder() .encode(notes)
+            
+            let url = getDecomentaryDirectory().appendingPathComponent("notes")
+            
+            try data.write(to: url)
+        }
+        catch{
+            print("Saving data has failed!")
+        }
+        
+    }
+    
+    func load() {
+        do {
+            
+        }
+        
+        catch{
+            
+        }
     }
   
     
