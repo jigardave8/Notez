@@ -12,18 +12,18 @@ struct ContentView: View {
     // MARK:-  PROPERTY
     @State private var notes: [Note] = [Note]()
     @State private var text : String = ""
-         
+    
     
     // MARK:- FUNCTION
     
     func getDecomentaryDirectory() -> URL {
         let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-    
-    return path[0]
+        
+        return path[0]
         
     }
     func save(){
-//        dump(notes)
+        //        dump(notes)
         do{
             let data = try JSONEncoder() .encode(notes)
             
@@ -38,15 +38,23 @@ struct ContentView: View {
     }
     
     func load() {
-        do {
+        DispatchQueue.main.async {
+            do {
+                let url = getDecomentaryDirectory().appendingPathComponent("notes")
+                
+                let data = try Data(contentsOf: url)
+                
+                notes  = try JSONDecoder().decode([Note].self, from: data)}
             
+            catch{
+                
+            }
         }
         
-        catch{
-            
-        }
     }
-  
+    
+    
+    
     
     
     // MARK:- BODY
@@ -56,7 +64,7 @@ struct ContentView: View {
         VStack {
             HStack(alignment: .center, spacing: 6)
             {
-            TextField("Add new Note", text: $text)
+                TextField("Add new Note", text: $text)
                 Button {
                     //action
                     
@@ -71,7 +79,7 @@ struct ContentView: View {
                     save()
                     
                 }
-                    
+                
                 label: {
                     Image(systemName: "plus.circle")
                         .font(.system(size: 42, weight: .thin))
@@ -79,10 +87,10 @@ struct ContentView: View {
                 .fixedSize()
                 .buttonStyle(PlainButtonStyle())
                 .foregroundColor(.accentColor)
-//                .buttonStyle(BorderedButtonStyle(tint: .accentColor))
+                //                .buttonStyle(BorderedButtonStyle(tint: .accentColor))
                 
-            
-        
+                
+                
             }//hstack
             Spacer()
             
@@ -90,6 +98,9 @@ struct ContentView: View {
             
         }//vstack
         .navigationTitle("Notes")
+        .onAppear(perform: {
+            load()
+        })
         
         
     }
