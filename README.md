@@ -21,7 +21,7 @@ The beautiful UI makes it easy to navigate the app for taking the notes
 
 
    <p align="center"> 
-<img src="https://user-images.githubusercontent.com/13096575/123522931-42660c80-d6de-11eb-85a4-47209347ffb6.png" width="400" height="400">______________________ <img src="https://user-images.githubusercontent.com/13096575/123522956-64f82580-d6de-11eb-8040-024eb8cdb144.gif" width="400" height="400"></P>
+<img src="https://user-images.githubusercontent.com/13096575/123522931-42660c80-d6de-11eb-85a4-47209347ffb6.png" width="250" height="300">______________________ <img src="https://user-images.githubusercontent.com/13096575/123522956-64f82580-d6de-11eb-8040-024eb8cdb144.gif" width="250" height="300"></P>
 
 
 
