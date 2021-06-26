@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # <h1>Watch-Notes</h1> 
-<h2>Watch App devloped with SwiftUI for making simple notes </h2>
+<h2>Watch App developed with SwiftUI for making simple notes </h2>
 
 ![Optional Text](https://user-images.githubusercontent.com/13096575/123522635-121d6e80-d6dc-11eb-8c98-81e269e35d85.png)
 
