@@ -15,12 +15,11 @@ Watch OS Notes App
 This SwiftUI based app is a showcase for a simple watch based note taking application. 
 The beautiful UI makes it easy to navigate the app for taking the notes
 
-<p align="center"> </P>
-   <img src=”(https://user-images.githubusercontent.com/13096575/123522635-121d6e80-d6dc-11eb-8c98-81e269e35d85.png)”>
+<p align="center"> <img src=”https://user-images.githubusercontent.com/13096575/123522635-121d6e80-d6dc-11eb-8c98-81e269e35d85.png”>_<img src="https://user-images.githubusercontent.com/13096575/142225746-0e0b36a9-f8ef-4a0e-a7be-fe9619284994.png"> 
+<img src="https://user-images.githubusercontent.com/13096575/142225755-f6299fc8-e267-4ea6-8432-c5135ba1630b.png">_<img src="https://user-images.githubusercontent.com/13096575/142225762-525cec89-c2ad-466d-a850-dc23e56c439a.png">
+<img src="https://user-images.githubusercontent.com/13096575/142225720-6807f6e0-6251-4cda-a4ef-0f53baea24df.png">
 
-
-
-   <p align="center"> 
+<p align="center"> 
 <img src="https://user-images.githubusercontent.com/13096575/123522931-42660c80-d6de-11eb-85a4-47209347ffb6.png" width="250" height="300">______________________ <img src="https://user-images.githubusercontent.com/13096575/123522956-64f82580-d6de-11eb-8040-024eb8cdb144.gif" width="250" height="300"></P>
 
 
