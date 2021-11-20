@@ -1,11 +1,13 @@
-# Watch-Notes
+# <h1>  :  <a href = "https://apps.apple.com/us/app/notez/id1595777083" target = "_self"> Notez</a> </h1> 
 
 [![Language](http://img.shields.io/badge/language-SwiftUI-orange?style=flat
 )](https://developer.apple.com/swift)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20-blue)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# <h1>Watch-Notes</h1> 
+
+
+
 <h2>Watch App developed with SwiftUI for making simple notes </h2>
 
 ![Optional Text](https://user-images.githubusercontent.com/13096575/123522635-121d6e80-d6dc-11eb-8c98-81e269e35d85.png)
