@@ -60,7 +60,7 @@ The beautiful UI makes it easy to navigate the app for taking the notes
 
 ## Contribute
 
-If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/jigardave8/Watch-Notes/issues). 
+If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/jigardave8/Notez/issues). 
 
 Please take a moment to
 review the [CONTRIBUTING](.github/CONTRIBUTING.md) guidelines.
