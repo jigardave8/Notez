@@ -8,15 +8,20 @@
 
 
 
-<h2>Watch App developed with SwiftUI for making simple notes </h2>
+<h2>Notez developed with SwiftUI for making simple notes </h2>
+
+
+![Optional Text](https://user-images.githubusercontent.com/13096575/142708453-0367cce3-a40b-48f3-89bb-70f1ce1b7095.png)
 
 ![Optional Text](https://user-images.githubusercontent.com/13096575/123522635-121d6e80-d6dc-11eb-8c98-81e269e35d85.png)
 
-Watch OS Notes App
+Notez
 
 This SwiftUI based app is a showcase for a simple watch based note taking application. 
 The beautiful UI makes it easy to navigate the app for taking the notes
-<img src=”https://user-images.githubusercontent.com/13096575/142708453-0367cce3-a40b-48f3-89bb-70f1ce1b7095.png”>_
+
+
+
 
    
    
@@ -67,7 +72,7 @@ N/A
 
 ## License
 
-"Watch OS Notes" is released under the MIT license. See [LICENSE](mit) for details.
+"Notez" is released under the MIT license. See [LICENSE](mit) for details.
 
 [https://github.com/jigardave8](/)
 
